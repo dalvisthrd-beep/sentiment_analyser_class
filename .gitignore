@@ -1,0 +1,59 @@
+# Ignore large files (>100MB exceeds GitHub hard limit)
+Cell_Phones_and_Accessories_5.json
+*.json
+*.jsonl
+*.mtx
+
+# Python & Environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter & VS Code
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Windows
+*.bat
+Thumbs.db
+Desktop.ini
+
+# Unrelated course projects
+bbc/
+open cv/
+university-ai-assistant/
+cell_phone_sentiment/
+bbc_nlp_processing.ipynb
+vocab_*.txt
+q1fat.py
+try.py
+add_sarcasm_to_lab2.py
+
+# Local training and benchmark datasets
+train-balanced-sarcasm.csv
+train-balanced-sarc.csv.gz
+test-balanced.csv
+test-unbalanced.csv
+
+# Deploy the trained model artifacts; large weights are tracked with Git LFS
+!trained_models/**
